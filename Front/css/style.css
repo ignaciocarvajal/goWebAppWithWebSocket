@@ -1,0 +1,32 @@
+#registro{
+    background-color: aquamarine;
+    padding: 10px 25px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 10em;
+}
+#registro input{
+    display: inline-block;
+   
+}
+
+#registro input[type="text"]{
+    width: 80%;
+  
+}
+
+#registro input[type="submit"]{
+  margin-top: 1em;
+  float: right;
+  margin-right: 35%;
+  clear: both;
+  display: block;
+  
+}
+
+#registro label{
+    width: 25%;
+    text-align: left;
+}
