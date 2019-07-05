@@ -30,3 +30,7 @@
     width: 25%;
     text-align: left;
 }
+
+#container_chat{
+    display: none;
+}

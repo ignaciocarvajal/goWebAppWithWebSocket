@@ -12,11 +12,23 @@
 <body>
     <div class="container" id="container">
         <div id="registro">
-            <form id="form_registro" action="">
+            <form id="form_registro">
                 <label for="name">UserName:</label>
                 <input type="text" name="user_name" id="user_name">
                 <input type="submit" id="envia" value="ingresa" class="btn btn-primary">
             </form>
+        </div>
+    </div>
+
+    <div id="container_chat">
+        <div class="chat">
+            <div id="chat_zone">
+                <textarea rows="20" cols="70" class="form-control" id="chat_area"></textarea>
+                <form id="form_message">
+                    <input type="text" class="form-control" id="msg" name="msg" autofocus="true">
+                    <input type="submit" class="form-control btn btn-primary">
+                </form>
+            </div>
         </div>
     </div>
 
